@@ -1,4 +1,4 @@
-my_string = "6"
+my_string = 6
 
 my_number = 5
 

@@ -1,11 +1,12 @@
-cats = ["Octavia", "Ursula"]
+cats_list = ["Octavia", "Ursula"]
 
-def cats():
-    for cats in cats:
-        cats.append(f"Meow my name is {cats}")
-    return cats
+def name_cats():
+    cats_intros = []
+    for cat in cats_list:
+        cats_intros.append(f"Meow my name is {cat}")
+    return cats_intros
 
-print( cats() )
+print( name_cats() )
 
 '''
 File "/home/chett/031124/p3/01-python-debugging/06.py", line 4, in cats

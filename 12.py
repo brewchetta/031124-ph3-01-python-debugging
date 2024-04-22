@@ -1,5 +1,5 @@
-from flaker import Faker
-from random import choise
+from faker import Faker
+from random import choice
 
 fake = Faker()
 
@@ -7,7 +7,7 @@ def create_angry_bird():
 
     bird_dict = {
         'name': fake.name(),
-        'anger_level': choise( range(5,11) )
+        'anger_level': choice( range(5,11) )
     }
 
     return bird_dict

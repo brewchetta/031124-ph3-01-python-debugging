@@ -1,7 +1,8 @@
 def return_hello():
     return 'hello'
 
-assert return_hello() == 'goodbye'
+assert return_hello() != 'goodbye'
+# checks if the statement is true
 
 print("Change the == to != so that the assertion comes out True")
 

@@ -1,5 +1,9 @@
 def return_opposite(boolean_param:bool):
-    return !bool
+    return not boolean_param
+
+# && and
+
+# || or
 
 print( return_opposite(False) )
 

@@ -1,5 +1,5 @@
 one = 1
-two = "2"
+two = 2
 
 def compare_numbers(num_one:int, num_two:int):
     if num_one > num_two:
